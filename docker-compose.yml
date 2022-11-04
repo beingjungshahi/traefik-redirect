@@ -21,5 +21,5 @@ services:
     container_name: "web"
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.whoami.rule=Host(`hopnepal.com`)"
+      - "traefik.http.routers.whoami.rule=Host(`domain.test`)"
       - "traefik.http.routers.whoami.entrypoints=web"
